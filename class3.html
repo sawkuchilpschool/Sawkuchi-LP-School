@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Class 3</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Class 3</h1>
+  <p>Sawkuchi LP School</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Students: 56</h2>
+  </div>
+
+  <div class="card">
+    <h2>
+      📢 Weekly Test Result
+      <span style="color:red;font-weight:bold;animation:blink 1s infinite;">
+        🔴 NEW
+      </span>
+    </h2>
+
+    <p>Class 3 Weekly Test-1 Scorecard will be uploaded soon.</p>
+
+    <a href="class3-result.pdf" target="_blank">
+      📄 View Result
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>
