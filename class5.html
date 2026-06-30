@@ -1,21 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Class 5</title>
 
 <style>
-body {font-family:Arial; margin:0; background:#f4f4f4;}
-header {background:#2c3e50; color:white; padding:15px; text-align:center;}
-.container {padding:20px;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
 .card {
-  background:white;
-  padding:15px;
-  border-radius:10px;
-  margin-top:15px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+    50% {
+        opacity: 0;
+    }
 }
 </style>
 
@@ -24,28 +55,34 @@ header {background:#2c3e50; color:white; padding:15px; text-align:center;}
 <body>
 
 <header>
-<h1>Class 5</h1>
-<p>Sawkuchi LP School</p>
+    <h1>Class 5</h1>
+    <p>Sawkuchi LP School</p>
 </header>
 
 <div class="container">
 
-<div class="card">
-  <h2>Students: 46</h2>
-</div>
+    <div class="card">
+        <h2>Students: 46</h2>
+    </div>
 
-<div class="card">
-  <h2>
-    Weekly Test-1 Result 
-    <span style="color:red;font-weight:bold;animation:blink 1s infinite;">
-      🔴 NEW
-    </span>
-  </h2>
+    <div class="card">
+        <h2>Weekly Test-1 Result</h2>
+        <a href="Weekly Test-1 Scorecard.pdf" target="_blank">
+            View Result PDF
+        </a>
+    </div>
 
-  <a href="Weekly Test-1 Scorecard.pdf" target="_blank">
-    View Result PDF
-  </a>
-</div>
+    <div class="card">
+        <h2>
+            Weekly Test-2 Result
+            <span style="color:red;font-weight:bold;animation:blink 1s infinite;">
+                🔴 NEW
+            </span>
+        </h2>
+        <a href="Weekly Test-2 Scorecard.pdf" target="_blank">
+            View Result PDF
+        </a>
+    </div>
 
 </div>
 
